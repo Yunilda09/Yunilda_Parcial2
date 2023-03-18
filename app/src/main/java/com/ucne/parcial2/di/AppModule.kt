@@ -25,7 +25,7 @@ object AppModule {
         return Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
     }
 
-    /*@Singleton
+    @Singleton
     @Provides
     fun providesTePrestoApi(moshi: Moshi): TicketsApi {
         return Retrofit.Builder()
@@ -34,5 +34,5 @@ object AppModule {
             .build()
             .create(TicketsApi::class.java)
     }
-*/
+
 }

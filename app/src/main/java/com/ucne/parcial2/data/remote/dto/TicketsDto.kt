@@ -1,6 +1,6 @@
 package com.ucne.parcial2.data.remote.dto
 
-data class TicketDto(
+data class TicketsDto(
     val asunto: String,
     val empresa: String,
     val encargadoId: Int,
